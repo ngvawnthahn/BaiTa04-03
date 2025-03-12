@@ -2,12 +2,12 @@
 int main()
 {
 	float a,i,sum=0,c;
-	scanf("%f",&a);
+	scanf("nhập số:%f",&a);
 	for(i=1;i<=a;i++)
 	{
 		c=1/i;
 		sum+=c;
 	}
-	printf("%f",sum);
+	printf("tổng:%f",sum);
 	return 0;
 }
