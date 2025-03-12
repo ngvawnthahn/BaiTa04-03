@@ -9,6 +9,6 @@ int main()
 		a *= 1.0/i;
 		sum +=a;
 	}
-	printf("%f",sum);
+	printf("tổng:%f",sum);
 	return 0;
 }
