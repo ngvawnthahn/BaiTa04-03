@@ -2,7 +2,7 @@
 int main()
 {
 	long long a,b,c,d;
-	scanf("%lld %lld",&a,&b);
+	scanf("nhập vào 2 số:%lld %lld",&a,&b);
 	c=a*b;
 	long long i=a%b;
 	while(b!=0){
@@ -11,6 +11,6 @@ int main()
 		b=i;
 	}
 	d=c/a;
-	printf("uoc chung lon nhat l� %lld\n",a);
-	printf("boi chung nho nhat l� %lld",d);
+	printf("uoc chung lon nhat là %lld\n",a);
+	printf("boi chung nho nhat là %lld",d);
 }
